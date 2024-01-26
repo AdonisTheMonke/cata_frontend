@@ -8,6 +8,7 @@ import ExplanationToUnder1816 from './components/ExplanationToUnder18';
 import { useTranslation } from 'react-i18next';
 import ParentTutorConsent from './components/tutorparentconsent';
 import ExplanationToParentsAndTutor from './components/explanationforparent';
+import RealTrial from './components/realTrial';
 
 
 const SurveyComponent = () => {
@@ -25,6 +26,8 @@ const SurveyComponent = () => {
   const [nativeLanguage, setNativeLanguage] = useState("")
   const [visionType, setVisionType] = useState("")
   const [visionSubType, setVisionSubType] = useState("n/a")
+  const [results, setResults] = useState({});
+
 
  const handleAgeGroupChange = (event) => {
   const selectedAgeGroup = event;
@@ -98,7 +101,7 @@ function handleSubmitOfUserInfo(e) {
   setNativeLanguage(e.target.elements.language.value)
   setVisionType(e.target.elements.visiontype.value)
   setVisionSubType(e.target.elements.visionsubtype?.value || "n/a");
-  setCurrentPage("finalPage")
+  setCurrentPage("realTrialPage")
 }
   
 function handleResultsUpload() {
@@ -109,7 +112,7 @@ function handleResultsUpload() {
     nativeLanguage,
     visionType,
     visionSubType,
-    /* results, */
+    results,
   })
     .then(() => {
       console.log('Results uploaded successfully!');
@@ -121,12 +124,18 @@ function handleResultsUpload() {
 
     });
 }
+function CallBackFinishedTrial(result){
+  setCurrentPage("finalPage")
+  setResults(result)
+
+}
 
 useEffect(() => {
   if(currentPage === "finalPage"){
     handleResultsUpload()
   }
 })
+
 
   return (
     <div className='App'>
@@ -167,14 +176,6 @@ useEffect(() => {
       )}
       {/* end of above 18 */}
 
-      {currentPage === 'nameInput' && (
-        <div>
-          <h2>Name Section</h2>
-          <UserInfo
-            handleSubmit={handleSubmitOfUserInfo}
-          />
-        </div>
-      )}
 
       {/* start of under 18 */}
       {currentPage === 'introUnder18' && (
@@ -185,11 +186,11 @@ useEffect(() => {
                 if (tosAccept === "yes") {
                   setCurrentPage('termsUnder18');
                 } else {
-                  console.log(setCurrentPage("finalPage"))
+                  console.log(setCurrentPage("declinedPage"))
                 }
               }}
-            handleTermsCheckboxChange={handleTermsCheckboxChange}
-          />
+              handleTermsCheckboxChange={handleTermsCheckboxChange}
+              />
         </>
       )}
 
@@ -211,7 +212,7 @@ useEffect(() => {
 
     {/* start of under 16 */}
       {currentPage === 'introUnder16' && (
-          <>
+        <>
           <h2>This user is under 16.</h2>
           <ExplanationToUnder1816
               submitClicker={() => {
@@ -219,11 +220,11 @@ useEffect(() => {
                   setCurrentPage('termsUnder16');
                   setTosAccept("");
                 } else {
-                  console.log(setCurrentPage("finalPage"))
+                  console.log(setCurrentPage("declinedPage"))
                 }
               }}
-            handleTermsCheckboxChange={handleTermsCheckboxChange}
-          />
+              handleTermsCheckboxChange={handleTermsCheckboxChange}
+              />
           </>
       )}
 
@@ -232,7 +233,7 @@ useEffect(() => {
           <h2>Terms and Conditions for participants under 16...</h2>
           <ParentTutorConsent
             submitClicker={() => setCurrentPage('infoUnder16')}
-          />
+            />
         </div>
       )}
 
@@ -245,19 +246,46 @@ useEffect(() => {
                 setCurrentPage('nameInput');
                 setTosAccept("");
               } else {
-                console.log(setCurrentPage("finalPage"))
+                console.log(setCurrentPage("declinedPage"))
               }
             }}
             handleTermsCheckboxChange={handleTermsCheckboxChange}
-          />
+            />
         </div>
       )}
     {/* end of under 16 */}
 
+    {currentPage === 'nameInput' && (
+      <div>
+        <h2>Name Section</h2>
+        <UserInfo
+          handleSubmit={handleSubmitOfUserInfo}
+        />
+      </div>
+    )}
+
+    {currentPage === 'tutorialPage' && (
+      <div>
+          <p>This is tutorial Page.</p>
+        </div>
+      )}
+
+    {currentPage === 'realTrialPage' && (
+          <RealTrial
+          finishedtrials={CallBackFinishedTrial}
+          />
+      )}
+
       {currentPage === 'finalPage' && (
         <div>
-          <h2>Thank you for participating!</h2>
           <p>{uploadStatus}</p>
+
+        </div>
+      )}
+
+      {currentPage === 'declinedPage' && (
+        <div>
+          <p>ToS has been declined or participant does not want to take the experiment.</p>
         </div>
       )}
       </header>
