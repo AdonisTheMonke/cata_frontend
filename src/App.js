@@ -134,7 +134,7 @@ useEffect(() => {
   if(currentPage === "finalPage"){
     handleResultsUpload()
   }
-})
+},[])
 
 
   return (
