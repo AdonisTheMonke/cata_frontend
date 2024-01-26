@@ -58,9 +58,9 @@ export default function ExplanationToParentsAndTutor(props) {
       
       <h4>{t("explanationForUnder18_16.understand_question")}</h4>
       <label style={{ fontSize: "15px" }}>
-        <input type="radio" name="understandquestion" value="yes" onChange={props.handleTermsCheckboxChange} /> {t("experiment_explanation_parent_tutor.consent_agree")}
+        <input className="radio-checkbox" type="radio" name="understandquestion" value="yes" onChange={props.handleTermsCheckboxChange} /> {t("experiment_explanation_parent_tutor.consent_agree")}
         <br></br>
-        <input type="radio" name="understandquestion" value="maybe" onChange={props.handleTermsCheckboxChange} /> {t("experiment_explanation_parent_tutor.consent_disagree")}
+        <input className="radio-checkbox" type="radio" name="understandquestion" value="maybe" onChange={props.handleTermsCheckboxChange} /> {t("experiment_explanation_parent_tutor.consent_disagree")}
       </label>
       <br />
       <br />

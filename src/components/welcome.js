@@ -59,9 +59,9 @@ export default function Welcome(props) {
       
       <h4>{t("TermsAndConditions.consent")}</h4>
       <label style={{ fontSize: "15px" }}>
-        <input type="radio" name="understandquestion" value="yes" onChange={props.handleTermsCheckboxChange} /> {t("TermsAndConditions.consent_agree")}
+        <input className="radio-checkbox" type="radio" name="understandquestion" value="yes" onChange={props.handleTermsCheckboxChange} /> {t("TermsAndConditions.consent_agree")}
         <br></br>
-        <input type="radio" name="understandquestion" value="no" onChange={props.handleTermsCheckboxChange} /> {t("TermsAndConditions.consent_disagree")}
+        <input className="radio-checkbox" type="radio" name="understandquestion" value="no" onChange={props.handleTermsCheckboxChange} /> {t("TermsAndConditions.consent_disagree")}
       </label>
       <br />
       <br />

@@ -28,12 +28,12 @@ export default function ExplanationToUnder1816(props) {
       
 
       <h4>{t("explanationForUnder18_16.understand_question")}</h4>
-      <label style={{ fontSize: "15px" }}>
-        <input type="radio" name="understandquestion" value="yes" onChange={props.handleTermsCheckboxChange} /> {t("explanationForUnder18_16.understand_totally_totally")}
+      <label className="checkbox-container" style={{ fontSize: "15px" }}>
+        <input className="radio-checkbox"  type="radio" name="understandquestion" value="yes" onChange={props.handleTermsCheckboxChange} /> <span className="checkbox-label">{t("explanationForUnder18_16.understand_totally_totally")}</span>
         <br></br>
-        <input type="radio" name="understandquestion" value="maybe" onChange={props.handleTermsCheckboxChange} /> {t("explanationForUnder18_16.understand_question_justlittle")}
+        <input className="radio-checkbox" type="radio" name="understandquestion" value="maybe" onChange={props.handleTermsCheckboxChange} /> <span className="checkbox-label">{t("explanationForUnder18_16.understand_question_justlittle")}</span> 
         <br></br>
-        <input type="radio" name="understandquestion" value="no" onChange={props.handleTermsCheckboxChange} /> {t("explanationForUnder18_16.understand_question_no")}
+        <input className="radio-checkbox" type="radio" name="understandquestion" value="no" onChange={props.handleTermsCheckboxChange} /> <span className="checkbox-label">{t("explanationForUnder18_16.understand_question_no")}</span> 
       </label>
       <br />
       <br />

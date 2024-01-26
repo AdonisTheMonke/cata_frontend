@@ -157,7 +157,6 @@ useEffect(() => {
       {currentPage === 'introOver18' && (
         
           <>
-            <h2>this user is over 18</h2>
             <Welcome
               submitClicker={() => {
                 if (tosAccept === "yes") {
@@ -175,14 +174,12 @@ useEffect(() => {
 
       {currentPage === 'termsOver18' && (
         <div>
-          <h2>Terms and Conditions for participants over 18...</h2>
           <button onClick={() => setCurrentPage('infoOver18')}>Next</button>
         </div>
       )}
 
       {currentPage === 'infoOver18' && (
         <div>
-          <h2>Hello World</h2>
           <button onClick={() => setCurrentPage('nameInput')}>Next</button>
         </div>
       )}
@@ -192,7 +189,6 @@ useEffect(() => {
       {/* start of under 18 */}
       {currentPage === 'introUnder18' && (
         <>
-          <h2>This user is under 18</h2>
           <ExplanationToUnder1816
               submitClicker={() => {
                 if (tosAccept === "yes") {
@@ -208,14 +204,12 @@ useEffect(() => {
 
       {currentPage === 'termsUnder18' && (
         <div>
-          <h2>This user is under 18.</h2>
           <button onClick={() => setCurrentPage('infoUnder18')}>Next</button>
         </div>
       )}
 
       {currentPage === 'infoUnder18' && (
         <div>
-          <h2>Additional info for participants under 18...</h2>
           <button onClick={() => setCurrentPage('nameInput')}>Next</button>
         </div>
       )}
@@ -225,7 +219,6 @@ useEffect(() => {
     {/* start of under 16 */}
       {currentPage === 'introUnder16' && (
         <>
-          <h2>This user is under 16.</h2>
           <ExplanationToUnder1816
               submitClicker={() => {
                 if (tosAccept === "yes") {
@@ -242,7 +235,6 @@ useEffect(() => {
 
       {currentPage === 'termsUnder16' && (
         <div>
-          <h2>Terms and Conditions for participants under 16...</h2>
           <ParentTutorConsent
             submitClicker={() => setCurrentPage('infoUnder16')}
             />
@@ -251,7 +243,6 @@ useEffect(() => {
 
       {currentPage === 'infoUnder16' && (
         <div>
-          <h2>Additional info for participants under 16...</h2>
           <ExplanationToParentsAndTutor
             submitClicker={() => {
               if (tosAccept === "yes") {
@@ -269,7 +260,6 @@ useEffect(() => {
 
     {currentPage === 'nameInput' && (
       <div>
-        <h2>Name Section</h2>
         <UserInfo
           handleSubmit={handleSubmitOfUserInfo}
         />

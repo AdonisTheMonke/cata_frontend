@@ -2,6 +2,10 @@
   text-align: left;
   
 }
+
+h1 {
+  margin: 0px;
+}
 h2 {
   padding: 0px;
   margin: 5px;
@@ -85,7 +89,7 @@ pre {
 }
 
 .termsandcondition-div {
-  width: 40%;
+  width: 500px;
   background: #1E1E1E;
   padding: 60px;
   height: 100%;
@@ -185,10 +189,14 @@ pre {
   background-color: #383838;
   color: white;
   border: 0px;
-  border-radius: 5px;
-  padding: 5px;
+  border-radius: 3px;
+  padding: 8px;
   font-size: 15px;
   height: auto;
+}
+
+.inputCSS:focus{
+  border: 0px
 }
 
 .selectorCSS:focus {
@@ -203,3 +211,11 @@ label > p {
   color: #dbdbdb;
   font-size: 15px;
 }
+
+
+.radio-checkbox {
+  margin-right: 15px; /* Adjust spacing between checkboxes */
+  margin-top: 20px;
+}
+
+

@@ -42,6 +42,7 @@ export default function UserInfo(props){
             </label>
           <br></br><br></br>
           <button className="submit_button" type="submit">Submit</button>
+          <br></br>
         </form>
       </div>
     )
