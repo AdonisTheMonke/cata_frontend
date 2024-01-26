@@ -57,6 +57,15 @@ export default function Welcome(props) {
       <p>{t("TermsAndConditions.principal_investigator")}</p>
       <br />
       
+      <h4>{t("TermsAndConditions.consent")}</h4>
+      <label style={{ fontSize: "15px" }}>
+        <input type="radio" name="understandquestion" value="yes" onChange={props.handleTermsCheckboxChange} /> {t("TermsAndConditions.consent_agree")}
+        <br></br>
+        <input type="radio" name="understandquestion" value="no" onChange={props.handleTermsCheckboxChange} /> {t("TermsAndConditions.consent_disagree")}
+      </label>
+      <br />
+      <br />
+      <button className="submit_button" onClick={props.submitClicker}>{(t("TermsAndConditions.submit"))}</button>
 
       
     </div>

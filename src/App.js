@@ -9,6 +9,7 @@ import { useTranslation } from 'react-i18next';
 import ParentTutorConsent from './components/tutorparentconsent';
 import ExplanationToParentsAndTutor from './components/explanationforparent';
 import RealTrial from './components/realTrial';
+import Welcome from './components/welcome';
 
 
 const SurveyComponent = () => {
@@ -154,9 +155,20 @@ useEffect(() => {
 
       {/* start of above 18 */}
       {currentPage === 'introOver18' && (
-
+        
           <>
             <h2>this user is over 18</h2>
+            <Welcome
+              submitClicker={() => {
+                if (tosAccept === "yes") {
+                  setCurrentPage('nameInput');
+                  setTosAccept("");
+                } else {
+                  console.log(setCurrentPage("declinedPage"))
+                }
+              }}
+              handleTermsCheckboxChange={handleTermsCheckboxChange}
+            />
           </>
         
       )}
@@ -184,7 +196,7 @@ useEffect(() => {
           <ExplanationToUnder1816
               submitClicker={() => {
                 if (tosAccept === "yes") {
-                  setCurrentPage('termsUnder18');
+                  setCurrentPage('termsUnder16');
                 } else {
                   console.log(setCurrentPage("declinedPage"))
                 }
@@ -278,7 +290,7 @@ useEffect(() => {
 
       {currentPage === 'finalPage' && (
         <div>
-          <p>{uploadStatus}</p>
+          <p style={{fontSize:"25px"}}>{uploadStatus}</p>
 
         </div>
       )}

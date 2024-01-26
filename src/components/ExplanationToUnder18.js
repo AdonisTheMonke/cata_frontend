@@ -29,11 +29,11 @@ export default function ExplanationToUnder1816(props) {
 
       <h4>{t("explanationForUnder18_16.understand_question")}</h4>
       <label style={{ fontSize: "15px" }}>
-        <input type="radio" name="understandquestion" value="no" onChange={props.handleTermsCheckboxChange} /> {t("explanationForUnder18_16.understand_question_no")}
+        <input type="radio" name="understandquestion" value="yes" onChange={props.handleTermsCheckboxChange} /> {t("explanationForUnder18_16.understand_totally_totally")}
         <br></br>
         <input type="radio" name="understandquestion" value="maybe" onChange={props.handleTermsCheckboxChange} /> {t("explanationForUnder18_16.understand_question_justlittle")}
         <br></br>
-        <input type="radio" name="understandquestion" value="yes" onChange={props.handleTermsCheckboxChange} /> {t("explanationForUnder18_16.understand_totally_totally")}
+        <input type="radio" name="understandquestion" value="no" onChange={props.handleTermsCheckboxChange} /> {t("explanationForUnder18_16.understand_question_no")}
       </label>
       <br />
       <br />
