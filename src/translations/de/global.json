@@ -1,0 +1,106 @@
+{
+  "TermsAndConditions": {
+    "title": "Geschäftsbedingungen",
+    "point_one": "I. Forschungsgegenstand",
+    "point_one_description": "Korrespondenz zwischen Farbe und Temperatur.",
+    
+    "point_two": "II. Zweck der Studie",
+    "point_two_description": "Herauszufinden, wie Menschen auf der ganzen Welt Farbe und Temperatur assoziieren.",
+    
+    "point_three": "III. Experimentelles Verfahren",
+    "point_three_description": {
+      "a": "Auf dem Bildschirm werden zwei Farben angezeigt, und Sie werden gebeten, die wärmere Farbe auszuwählen, indem Sie auf eines der dargestellten farbigen Quadrate klicken. Dies wird mit verschiedenen Farbkombinationen wiederholt. Sie können zwischen den Versuchen Pausen machen. Bitte beachten Sie, dass es keine richtige Antwort gibt und Sie eingeladen sind, so schnell und intuitiv wie möglich zu antworten.",
+      
+      "b": "Sie werden gebeten, einen Fragebogen zu Ihrem kulturellen Hintergrund (Herkunftsland usw.), Geschlecht, gesprochener Sprache, Alter und Farbsehfähigkeiten auszufüllen. Dies ist jedoch nicht obligatorisch. Diese Informationen können auch leer bleiben."
+    },
+    
+    "point_four": "IV. Risiken, Nachteile, Schmerzen, Nebenwirkungen usw. des Experiments und Gegenmaßnahmen dagegen",
+    "point_four_description": "Diese Studie verwendet keine experimentellen Apparate oder experimentelle Bedingungen, die Ihre körperliche Verfassung oder Gesundheit beeinträchtigen könnten. Wenn Sie jedoch auch nach ausreichenden Pausen eine Veränderung Ihrer körperlichen Verfassung oder Gesundheit bemerken, beenden Sie bitte sofort das Experiment.",
+    
+    "point_five": "V. Reaktion auf Notfälle",
+    "point_five_description": "Im Notfall können die Teilnehmer das Experiment nach eigenem Ermessen abbrechen oder beenden.",
+    
+    "point_six": "VI. Nachteile bei Nichtzustimmung zum Experiment",
+    "point_six_description": "Wenn Sie diesem Experiment nicht zustimmen, werden Sie in keiner Weise benachteiligt. Auch nach Zustimmung haben Sie das Recht, die Teilnahme am Experiment jederzeit auszusetzen oder abzulehnen. In solchen Fällen werden Sie in keiner Weise benachteiligt.",
+    
+    "point_seven": "VII. Datenschutz",
+    "point_seven_description": "Die Teilnahme ist anonym. Wenn Sie die Ergebnisse der Studie erfahren möchten, geben Sie bitte Ihre E-Mail-Adresse an. Wir senden Ihnen eine Zusammenfassung der Studienergebnisse, wenn sie veröffentlicht werden. Sie müssen Fragen zu Ihrem kulturellen Hintergrund oder Ihren Farbsehfähigkeiten nicht beantworten, wenn Sie dies nicht möchten. Die Antworten auf den Fragebogen sind nicht dazu gedacht, individuelle Fähigkeiten zu messen. Die erhaltenen Antworten werden nur zu Forschungszwecken verwendet.",
+    
+    "point_eight": "VIII. Gratifikationen",
+    "point_eight_description": "Es gibt keine Vergütung.",
+    
+    "point_nine": "IX. Sonstiges",
+    "point_nine_description": "Bitte kontaktieren Sie den Versuchsleiter, wenn Sie Beschwerden oder sonstige Kommentare zu diesem Experiment haben.",
+
+    "experimenter": "Versuchsleiter: Meissa Sow (Graduate School of Design, Kyushu-Universität, Japan)",
+    "email": "E-Mail-Adresse: sow.ndeye.meissa.042@s.kyushu-u.ac.jp",
+    "principal_investigator": "Hauptuntersucher: Chihiro Hiramatsu (Graduate School of Design, Kyushu-Universität, Japan)",
+
+    "consent":"Stimmen Sie zu, dass wir Ihre Informationen für unser Experiment verwenden dürfen?",
+    "consent_agree":"Ja, ich stimme zu und möchte an der Umfrage teilnehmen.",
+    "consent_disagree":"Nein, ich stimme nicht zu.",
+
+    "submit":"Einreichen"
+  },
+  "intro":{
+    "title":"Farb- und Temperaturassoziationsexperiment",
+    "paragraph_1":"Liebe Teilnehmer, willkommen zu unserem Experiment! \nWir sind Farbvision-Forscher an der Kyushu-Universität. Wir möchten herausfinden, wie Menschen auf der ganzen Welt Farbe und Temperatur assoziieren. Diese Assoziation mag in vielen Kulturen selbstverständlich sein, kann aber je nach Land, in dem wir leben, einige Unterschiede aufweisen. Und wir beabsichtigen, diese basierend auf Ihren Antworten durch die anonyme Umfrage zu finden.",
+    "paragraph_2":"Am Ende dieses Formulars befindet sich ein Link. Er wird Sie zum Experiment führen. Sie müssen die Bedingungen im Zusammenhang mit Ihrem Alter besonders beachten, wenn Sie minderjährig sind. Dann können Sie auf das Experiment zugreifen. Sie haben immer noch das Recht, nicht auf die Umfrage zu antworten, auch wenn Sie über 18 Jahre alt sind. Wir werden Ihre Informationen sammeln, aber wir versichern, dass sie nicht öffentlich geteilt werden und vertraulich bleiben. Wenn Sie nicht zustimmen, können Sie das Experiment nicht durchführen. Sie haben das Recht, die Umfrage auch nach der Zustimmung zu stoppen. Die Dauer beträgt ungefähr 5 Minuten. Vielen Dank im Voraus für Ihre kostbare Zusammenarbeit!",
+    "age_question":"Wie alt sind Sie?",
+    "age_above18":"Über 18",
+    "age_under18":"Unter 18",
+    "age_under16":"Unter 16"
+  },
+  "explanationForUnder18_16":{
+    "title":"Farb- und Temperaturassoziationsexperiment",
+    "question":"Was möchten wir tun?",
+    "paragraph_1":"In einigen Kulturen besteht eine starke Assoziation zwischen Farbe und Temperatur. Es ist jedoch unklar, ob dies weltweit ein Trend ist. In diesem Experiment möchten wir dies herausfinden. Während des Experiments werden zwei farbige Quadrate auf Ihrem Bildschirm angezeigt. Was Sie tun müssen, ist einfach: Klicken Sie auf dasjenige, das Sie wärmer empfinden. Antworten Sie so ehrlich wie möglich. Dieser Prozess ist einfach und dauert etwa 5-10 Minuten. Wir sind sehr an Ihren Ergebnissen interessiert. Wir benötigen Ihren Namen nicht. Geben Sie einfach Ihr Land, Ihre Muttersprache, Ihren Farbsehtyp (falls bekannt), Ihr Geschlecht und Ihr Alter an. Diese Informationen werden für unsere Forschung verwendet. Schließlich werden wir einen Bericht darüber verfassen, was wir untersucht haben, aber er wird Ihren Namen oder Informationen über Ihre Teilnahme am Experiment nicht enthalten. Sie können die Umfrage jederzeit abbrechen. Sie sind auch vollkommen frei zu entscheiden, ob Sie an der Umfrage teilnehmen möchten oder nicht.",
+    "understand_question":"Haben Sie verstanden, was im vorherigen Absatz gesagt wurde? Wenn ja, möchten Sie das Experiment durchführen?",
+    "understand_question_no":"Überhaupt nicht",
+    "understand_question_justlittle":"Nur ein wenig, aber ich möchte das Experiment nicht durchführen",
+    "understand_totally_totally":"Ich habe es völlig verstanden und möchte am Experiment teilnehmen"
+  },
+  "parent_tutor_consentUnder18_16":{
+    "title":"Farb- und Temperaturassoziationsexperiment",
+    "question":"Einverständniserklärung der Eltern/Erziehungsberechtigten und Einverständniserklärung des Kindes",
+    "paragraph_1":"Wenn Sie unter 18 oder 16 Jahre alt sind, benötigen Sie die Zustimmung Ihrer Eltern/Erziehungsberechtigten. Er/Sie hat die Entscheidung, ob Sie das Experiment fortsetzen dürfen oder nicht. Der Elternteil oder Erziehungsberechtigte hat das Recht, das Kind während der Umfrage zu begleiten. Nachdem Sie die Experimenterklärungen gelesen haben, können Sie (die Eltern und das Kind) auf der folgenden Seite Ihre Zustimmung geben.",
+    "submit":"Einreichen"
+  },
+  "experiment_explanation_parent_tutor":{
+    "title":"Farb- und Temperaturassoziationsexperiment",
+    "point_one": "I. Forschungsgegenstand",
+    "point_one_description": "Korrespondenz zwischen Farbe und Temperatur.",
+    
+    "point_two": "II. Zweck der Studie",
+    "point_two_description": "Herauszufinden, wie Menschen auf der ganzen Welt Farbe und Temperatur assoziieren.",
+    
+    "point_three": "III. Experimentelles Verfahren",
+    "point_three_description": {
+      "a": "Auf dem Bildschirm werden zwei Farben angezeigt, und Ihr Kind wird gebeten, zu antworten, welche Farbe wärmer ist, indem es auf eines der dargestellten farbigen Quadrate klickt. Dies wird mit verschiedenen Farbkombinationen wiederholt. Die Dauer des Experiments beträgt mindestens 5 Minuten. Ihr Kind kann zwischen den Versuchen Pausen machen. Bitte beachten Sie, dass es keine richtige Antwort gibt und Ihr Kind eingeladen ist, so schnell und intuitiv wie möglich zu antworten.",
+      
+      "b": "Ihr Kind muss zuvor einen Fragebogen zu seinem kulturellen Hintergrund (Herkunftsland usw.), Geschlecht, gesprochener Sprache, Alter und Farbsehfähigkeiten ausfüllen. Dies ist jedoch nicht obligatorisch. Diese Informationen können auch leer bleiben."
+    },
+    
+    "point_four": "IV. Risiken, Nachteile, Schmerzen, Nebenwirkungen usw. des Experiments und Gegenmaßnahmen dagegen",
+    "point_four_description": "Diese Studie verwendet keine experimentellen Apparate oder experimentelle Bedingungen, die die körperliche Verfassung oder Gesundheit Ihres Kindes beeinträchtigen könnten. Wenn Sie jedoch auch nach ausreichenden Pausen eine Veränderung der körperlichen Verfassung oder Gesundheit Ihres Kindes bemerken, beenden Sie bitte sofort das Experiment.",
+    
+    "point_five": "V. Reaktion auf Notfälle",
+    "point_five_description": "Im Notfall können die Teilnehmer das Experiment nach eigenem Ermessen abbrechen oder beenden.",
+    
+    "point_six": "VI. Nachteile bei Nichtzustimmung zum Experiment",
+    "point_six_description": "Wenn Sie und Ihr Kind diesem Experiment nicht zustimmen, werden Sie in keiner Weise benachteiligt. Auch nach Zustimmung hat Ihr Kind das Recht, die Teilnahme am Experiment jederzeit auszusetzen oder abzulehnen. In solchen Fällen wird Ihr Kind in keiner Weise benachteiligt.",
+    
+    "point_seven": "VII. Datenschutz",
+    "point_seven_description": "Die Teilnahme ist anonym. Wenn Sie und Ihr Kind die Ergebnisse der Studie erfahren möchten, geben Sie bitte Ihre E-Mail-Adresse an. Wir senden Ihnen eine Zusammenfassung der Studienergebnisse, wenn sie veröffentlicht werden. Wenn Ihr Kind dies nicht wünscht, muss es keine Fragen zu kulturellem Hintergrund oder",
+    
+    "experimenter": "Versuchsleiter: Meissa Sow (Graduate School of Design, Kyushu-Universität, Japan)",
+    "email": "E-Mail-Adresse: sow.ndeye.meissa.042@s.kyushu-u.ac.jp",
+    "principal_investigator": "Hauptuntersucher: Chihiro Hiramatsu (Graduate School of Design, Kyushu-Universität, Japan)",
+
+    "consent":"Stimmen Sie zu, dass Ihr Kind das Experiment durchführen darf?",
+    "consent_agree":"Ich stimme zu, dass mein Kind das Experiment durchführen darf.",
+    "consent_disagree":"Ich stimme nicht zu, dass mein Kind das Experiment durchführen darf.",
+
+    "submit":"Einreichen"
+  }
+}

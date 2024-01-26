@@ -1,0 +1,107 @@
+{
+    "TermsAndConditions": {
+      "title": "Términos y Condiciones",
+      "point_one": "I. Tema de Investigación",
+      "point_one_description": "Correspondencia entre color y temperatura.",
+      
+      "point_two": "II. Propósito del estudio",
+      "point_two_description": "Determinar cómo las personas de todo el mundo asocian el color y la temperatura.",
+      
+      "point_three": "III. Procedimiento Experimental",
+      "point_three_description": {
+        "a": "Se muestran dos colores en la pantalla, y se le pide que responda cuál de los colores siente más cálido haciendo clic en uno de los cuadrados de color presentados. Esto se repite con varias combinaciones de colores. Puede tomar descansos entre las pruebas. Tenga en cuenta que no hay una respuesta correcta, y se le invita a responder lo más rápido e intuitivamente posible.",
+        
+        "b": "Se le pedirá que complete un cuestionario sobre su origen cultural (país de origen, etc.), género, idioma hablado, edad y características de la visión del color. Pero no es obligatorio. Esa información puede dejarse en blanco."
+      },
+      
+      "point_four": "IV. Riesgos, desventajas, dolores, efectos secundarios, etc. del experimento, y contramedidas contra ellos",
+      "point_four_description": "Este estudio no utilizará ningún aparato experimental o condiciones experimentales que puedan afectar su condición física o salud. Sin embargo, si nota algún cambio en su condición física o salud, incluso después de tomar suficientes descansos, por favor, detenga el experimento inmediatamente.",
+      
+      "point_five": "V. Respuesta a Emergencias",
+      "point_five_description": "En caso de una emergencia, los participantes pueden detener o interrumpir el experimento a su discreción.",
+      
+      "point_six": "VI. Desventajas de no consentir con el experimento",
+      "point_six_description": "Si no consiente en este experimento, no se verá perjudicado de ninguna manera. Incluso después del consentimiento, tiene derecho a suspender o rechazar la participación en el experimento en cualquier momento. En tales casos, no se verá perjudicado de ninguna manera.",
+      
+      "point_seven": "VII. Privacidad",
+      "point_seven_description": "La participación es anónima. Si desea conocer los resultados del estudio, proporcione su dirección de correo electrónico. Le enviaremos un resumen de los resultados del estudio cuando se publiquen. No tiene que responder preguntas sobre su origen cultural o características de la visión del color si no lo desea. Las respuestas al cuestionario no están destinadas a medir habilidades individuales. Las respuestas obtenidas no se utilizarán para ningún propósito que no sea la investigación.",
+      
+      "point_eight": "VIII. Gratificaciones",
+      "point_eight_description": "No hay gratificaciones.",
+      
+      "point_nine": "IX. Otros",
+      "point_nine_description": "Por favor, póngase en contacto con el experimentador si tiene alguna queja u otro comentario sobre este experimento.",
+  
+      "experimenter": "Experimentador: Meissa Sow (Escuela de Posgrado de Diseño, Universidad de Kyushu, Japón)",
+      "email": "Dirección de correo electrónico: sow.ndeye.meissa.042@s.kyushu-u.ac.jp",
+      "principal_investigator": "Investigador Principal: Chihiro Hiramatsu (Escuela de Posgrado de Diseño, Universidad de Kyushu, Japón)",
+  
+      "consent":"¿Consiente en permitirnos tomar su información para nuestro experimento?",
+      "consent_agree":"Sí, estoy de acuerdo y quiero participar en la encuesta.",
+      "consent_disagree":"No, no estoy de acuerdo.",
+  
+      "submit":"Enviar"
+    },
+    "intro":{
+      "title":"Experimento de asociación de color y temperatura",
+      "paragraph_1":"¡Estimado participante, bienvenido a nuestro experimento! \nSomos investigadores de visión de color en la Universidad de Kyushu. Nos gustaría determinar cómo las personas de todo el mundo asocian el color y la temperatura. Esta asociación puede ser como un sentido común en muchas culturas, pero puede tener algunas diferencias según el país en el que vivimos. Y tenemos la intención de encontrarlas según sus respuestas a través de la encuesta anónima.",
+      "paragraph_2":"Al final de este formulario hay un enlace. Lo llevará al experimento. Debe cumplir con las condiciones relacionadas con su edad, especialmente si es menor de edad. Luego podrá acceder al experimento. Aún tiene derecho a no responder a la encuesta incluso si tiene más de 18 años. Recopilaremos su información pero hacemos una declaración de que no se compartirá públicamente y permanecerá confidencial. Si no acepta, no podrá hacer el experimento. Tiene derecho a detener la encuesta incluso después de la aceptación. La duración es de alrededor de 5 minutos. ¡Gracias de antemano por su valiosa cooperación!",
+      "age_question":"¿Cuántos años tienes?",
+      "age_above18":"Más de 18",
+      "age_under18":"Menor de 18",
+      "age_under16":"Menor de 16"
+    },
+    "explanationForUnder18_16":{
+      "title":"Experimento de asociación de color y temperatura",
+      "question":"¿Qué queremos hacer?",
+      "paragraph_1":"En algunas culturas, existe una fuerte asociación entre el color y la temperatura. Sin embargo, no sabemos si esto es una tendencia mundial. En este experimento, pretendemos averiguarlo. Durante el experimento, aparecen dos cuadrados de colores en su pantalla. Lo único que tiene que hacer es hacer clic en el que sienta más cálido. Responda lo más honestamente posible. Este proceso es fácil y tomará alrededor de 5-10 minutos. Estamos muy interesados en sus resultados. No necesitamos su nombre. Solo proporcione su país, su idioma materno, su tipo de visión del color (si lo sabe), su género y su edad. Esta información se utilizará para nuestra investigación. Finalmente, escribiremos un informe sobre lo que hemos estudiado, pero no contendrá su nombre ni ninguna información sobre su participación en el experimento. Puede detener la encuesta en cualquier momento. También es completamente libre de decidir si desea o no participar en la encuesta.",
+      "understand_question":"¿Entendió lo que se dijo en el párrafo anterior? Si es así, ¿desea realizar el experimento?",
+      "understand_question_no":"En absoluto",
+      "understand_question_justlittle":"Un poco, pero no quiero hacer el experimento",
+      "understand_totally_totally":"Entendí totalmente y quiero participar en el experimento"
+    },
+    "parent_tutor_consentUnder18_16":{
+      "title":"Experimento de asociación de color y temperatura",
+      "question":"Consentimiento de los padres/tutores y consentimiento del niño",
+      "paragraph_1":"Si tienes menos de 18 o 16 años, necesitas el consentimiento de tus padres/tutores. Él/Ella tiene la decisión de permitirte continuar con el experimento o no. El padre o tutor tiene todo el derecho de acompañar al niño durante la encuesta. Después de leer las explicaciones del experimento, ustedes (los padres y el niño) pueden dar su consentimiento en la página siguiente.",
+      "submit":"Enviar"
+    },
+    "experiment_explanation_parent_tutor":{
+      "title":"Experimento de asociación de color y temperatura",
+      "point_one": "I. Tema de Investigación",
+      "point_one_description": "Correspondencia entre color y temperatura.",
+      
+      "point_two": "II. Propósito del estudio",
+      "point_two_description": "Determinar cómo las personas de todo el mundo asocian el color y la temperatura.",
+      
+      "point_three": "III. Procedimiento Experimental",
+      "point_three_description": {
+        "a": "En la pantalla se muestran dos colores, y se le pide a su hijo que responda qué color es más cálido haciendo clic en uno de los cuadrados de color presentados. Esto se repite con varias combinaciones de colores. La duración del experimento es de alrededor de 5 minutos como mínimo. Su hijo puede tomar descansos entre las pruebas. Tenga en cuenta que no hay una respuesta correcta, y se invita a su hijo a responder lo más rápido e intuitivamente posible.",
+        
+        "b": "Antes, su hijo debe completar un cuestionario sobre su origen cultural (país de origen, etc.), género, idioma hablado, edad y características de la visión del color. Pero no es obligatorio. Esos datos pueden dejarse en blanco."
+      },
+      
+      "point_four": "IV. Riesgos, desventajas, dolores, efectos secundarios, etc. del experimento, y contramedidas contra ellos",
+      "point_four_description": "Este estudio no utilizará ningún aparato experimental o condiciones experimentales que puedan afectar la condición física o la salud de su hijo. Sin embargo, si nota algún cambio en la condición física o la salud de su hijo, incluso después de tomar suficientes descansos, por favor, detenga el experimento inmediatamente.",
+      
+      "point_five": "V. Respuesta a Emergencias",
+      "point_five_description": "En caso de una emergencia, los participantes pueden detener o interrumpir el experimento a su discreción.",
+      
+      "point_six": "VI. Desventajas de no consentir con el experimento",
+      "point_six_description": "Si usted y su hijo no consienten en este experimento, no se verán perjudicados de ninguna manera. Incluso después del consentimiento, su hijo tiene derecho a suspender o rechazar la participación en el experimento en cualquier momento. En tales casos, su hijo no se verá perjudicado de ninguna manera.",
+      
+      "point_seven": "VII. Privacidad",
+      "point_seven_description": "La participación es anónima. Si usted y su hijo desean conocer los resultados del estudio, proporcione su dirección de correo electrónico. Le enviaremos un resumen de los resultados del estudio cuando se publiquen. Si su hijo no lo desea, no tiene que responder preguntas sobre el origen cultural o las características de la visión del color.",
+      
+      "experimenter": "Experimentador: Meissa Sow (Escuela de Posgrado de Diseño, Universidad de Kyushu, Japón)",
+      "email": "Dirección de correo electrónico: sow.ndeye.meissa.042@s.kyushu-u.ac.jp",
+      "principal_investigator": "Investigador Principal: Chihiro Hiramatsu (Escuela de Posgrado de Diseño, Universidad de Kyushu, Japón)",
+  
+      "consent":"¿Consiente en permitir que su hijo realice el experimento?",
+      "consent_agree":"Consiento que mi hijo realice el experimento.",
+      "consent_disagree":"No estoy de acuerdo en permitir que mi hijo realice el experimento.",
+  
+      "submit":"Enviar"
+    }
+  }
+  

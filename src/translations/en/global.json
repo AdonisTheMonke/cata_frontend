@@ -1,0 +1,114 @@
+{
+  "TermsAndConditions": {
+    "title": "Terms and Conditions",
+    "point_one": "I. Research Subject",
+    "point_one_description": "Correspondence between color and temperature.",
+    
+    "point_two": "II. Purpose of the study",
+    "point_two_description": "To figure out how people around the world associate color and temperature.",
+    
+    "point_three": "III. Experimental Procedure",
+    "point_three_description": {
+      "a": "Two colors are shown on the screen, and you are asked to answer the color you find warmer by clicking on one of the colored squares presented. This is repeated with various color combinations. You are free to take breaks between trials. Please note that there is no correct answer, and you are invited to answer as fast and intuitively as possible.",
+      
+      "b": "You will be asked to complete a questionnaire about your cultural background (country of origin, etc.), gender, language spoken, age, and color vision characteristics. But it is not mandatory. That information can be left blank."
+    },
+    
+    "point_four": "IV. Risks, disadvantages, pains, side effects, etc. of the experiment, and countermeasures against them",
+    "point_four_description": "This study will not use any experimental apparatus or experimental conditions that may affect your physical condition or health. However, if you notice any change in your physical condition or health, even after taking sufficient breaks, please stop the experiment immediately.",
+    
+    "point_five": "V. Response to Emergencies",
+    "point_five_description": "In the event of an emergency, participants may stop or discontinue the experiment at their own discretion.",
+    
+    "point_six": "VI. Disadvantages of not consenting to the experiment",
+    "point_six_description": "If you do not consent to this experiment, you will not be disadvantaged in any way. Even after consent, you have the right to suspend or refuse participation in the experiment at any time. In such cases, you will not be disadvantaged in any way.",
+    
+    "point_seven": "VII. Privacy",
+    "point_seven_description": "Participation is anonymous. If you would like to know the results of the study, please provide your email address. We will send you a summary of the study results when they are published. You do not have to answer questions about your cultural background or color vision characteristics if you don't wish. Responses to the questionnaire are not intended to measure individual abilities. Responses obtained will not be used for any purpose other than research.",
+    
+    "point_eight": "VIII. Gratuities",
+    "point_eight_description": "There is no gratuity.",
+    
+    "point_nine": "IX. Other",
+    "point_nine_description": "Please contact the experimenter if you have any complaints or other comments about this experiment.",
+
+    "experimenter": "Experimenter: Meissa Sow (Graduate School of Design, Kyushu University, Japan)",
+    "email": "email address: sow.ndeye.meissa.042@s.kyushu-u.ac.jp",
+    "principal_investigator": "Principal Investigator: Chihiro Hiramatsu (Graduate School of Design, Kyushu University, Japan)",
+
+    "consent":"Do you consent to allow us to take your information for our experiment?",
+    "consent_agree":"Yes, I do agree, and I want to take the survey.",
+    "consent_disagree":"No, I do not agree.",
+
+    "submit":"Submit"
+
+  },
+  "intro":{
+    "title":"Color and temperature association experiment",
+    "paragraph_1":"Dear participant, welcome to our experiment! \nWe are color vision researchers based at Kyushu University. We would like to figure out how people around the world associate color and temperature. This association may be like common sense in many cultures, but may have some differences according to the country we live in. And we intend to find them based on your answers through the anonymous survey.",
+    "paragraph_2":"There is a link in the end of this form. It will head you to the experiment. You need to fit the conditions related to your age especially if you're under aged. Then you will be able to access the experiment. You still have the right to not answer to the survey even if you're over 18. We will collect your information but we make an attestation that they won't be shared publicly and will remain confidential. If you do not accept you won't be able to do the experiment. You have the right to stop the survey even after the acceptance. The duration is around 5 minutes. Thank you in advance for your precious cooperation!",
+    "age_question":"How old are you?",
+    "age_above18":"Above 18",
+    "age_under18":"Under 18",
+    "age_under16":"Under 16"
+  },
+  "explanationForUnder18_16":{
+    "title":"Color and temperature association experiment",
+    "question":"What do we want to do ?",
+    "paragraph_1":"In some cultures, there is a strong association between color and temperature. However, we do not know if this is a worldwide trend. In this experiment, we intend to find out. During the experiment, two colored squares appear on your screen. What you have to do is simply click on the one that you feel warmer. Answer as honestly as possible. This process is easy and will take about 5-10 minutes. We are very interested in your results. We do not need your name. Just provide your country, your first language, color vision type (if you know it), gender, and age. This information will be used for our research. Finally, we will write a report about what we have studied, but it will not contain your name or any information about your participation in the experiment. You may stop the survey at any time. You are also completely free to decide whether or not to participate in the survey.",
+    "understand_question":"Did you understand what was said in the previous paragraph? if so, would you like to do the experiment?",
+    "understand_question_no":"Not at all",
+    "understand_question_justlittle":"just a little bit, but I don't want to take the experiment",
+    "understand_totally_totally":"I totally understood and I want to participate to the experiment"
+  },
+  "parent_tutor_consentUnder18_16":{
+    "title":"Color and temperature association experiment",
+    "question":"Parent/tutor consent and child consent",
+    "paragraph_1":"If you're under 18 or 16 years old, you need to have the consent of your parent/tutor. He/She has the decision to let you pursuing the experiment or not. The parent or tutor has totally the right to escort the child  during the survey. After reading the experiment explanations, you (the parent and child) can let your consent on the following page.",
+    "submit":"Next"
+  },
+  "experiment_explanation_parent_tutor":{
+    "title":"Color and temperature association experiment",
+    "point_one": "I. Research Subject",
+    "point_one_description": "Correspondence between color and temperature.",
+    
+    "point_two": "II. Purpose of the study",
+    "point_two_description": "To figure out how people around the world associate color and temperature.",
+    
+    "point_three": "III. Experimental Procedure",
+    "point_three_description": {
+      "a": "Two colors are shown on the screen, and your child is asked to answer which color is warmer by clicking on one of the colored squares presented. This is repeated with various color combinations. The duration of the experiment is around 5 minutes at least. Your child is free to take breaks between trials. Please note that there is no correct answer, and your child is invited to answer as fast and intuitively as possible.",
+      
+      "b": "Beforehand your child needs to complete a questionnaire about his/her cultural background (country of origin, etc.), gender, language spoken, age, and color vision characteristics. But it is not a mandatory. Those information can be left blank."
+    },
+    
+    "point_four": "IV. Risks, disadvantages, pains, side effects, etc. of the experiment, and countermeasures against them",
+    "point_four_description": "This study will not use any experimental apparatus or experimental conditions that may affect your physical condition or health. However, if you notice any change in your physical condition or health, even after taking sufficient breaks, please stop the experiment immediately.",
+    
+    "point_five": "V. Response to Emergencies",
+    "point_five_description": "In the event of an emergency, participants may stop or discontinue the experiment at their own discretion.",
+    
+    "point_six": "VI. Disadvantages of not consenting to the experiment",
+    "point_six_description": "If you and your child do not consent to this experiment, you will not be disadvantaged in any way. Even after consenting, your child have the right to suspend or refuse participation in the experiment at any time. In such cases, your child will not be disadvantaged in any way.",
+    
+    "point_seven": "VII. Privacy",
+    "point_seven_description": "Participation is anonymous. If you and your child would like to know the results of the study, please provide your email address. We will send you a summary of the study results when they are published. If your child doesn't wish, he/she does not have to answer questions about the cultural background or color vision characteristics. Responses to the questionnaire are not intended to measure individual abilities. Responses obtained will not be used for any purpose other than research.",
+    
+    "point_eight": "VIII. Gratuities",
+    "point_eight_description": "There is no gratuity.",
+    
+    "point_nine": "IX. Other",
+    "point_nine_description": "Please contact the experimenter if you have any complaints or other comments about this experiment.",
+
+    "experimenter": "Experimenter: Meissa Sow (Graduate School of Design, Kyushu University, Japan)",
+    "email": "email address: sow.ndeye.meissa.042@s.kyushu-u.ac.jp",
+    "principal_investigator": "Principal Investigator: Chihiro Hiramatsu (Graduate School of Design, Kyushu University, Japan)",
+
+    "consent":"Do you consent to let your child doing the experiment ??",
+    "consent_agree":"I consent to let my child doing the experiment.",
+    "consent_disagree":"I do not agree to let my child doing the experiment.",
+
+    "submit":"Submit"
+  }
+
+}
