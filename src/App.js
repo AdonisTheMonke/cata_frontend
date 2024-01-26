@@ -10,6 +10,7 @@ import ParentTutorConsent from './components/tutorparentconsent';
 import ExplanationToParentsAndTutor from './components/explanationforparent';
 import RealTrial from './components/realTrial';
 import Welcome from './components/welcome';
+import TutorialTrials from './components/tutorial';
 
 
 const SurveyComponent = () => {
@@ -19,7 +20,7 @@ const SurveyComponent = () => {
   const [ageGroup, setAgeGroup] = useState('');
   const [name, setName] = useState('');
   const [currentPage, setCurrentPage] = useState('ageSelection');
-  const [uploadStatus, setUploadStatus] = useState("Uploading results...")
+  const [uploadStatus, setUploadStatus] = useState(`${t("final_Page.uploading_please_wait")}`)
 
 
   const [country, setCountry] = useState("");
@@ -102,8 +103,14 @@ function handleSubmitOfUserInfo(e) {
   setNativeLanguage(e.target.elements.language.value)
   setVisionType(e.target.elements.visiontype.value)
   setVisionSubType(e.target.elements.visionsubtype?.value || "n/a");
+  /* setCurrentPage("realTrialPage") */
+  setCurrentPage("tutorialPage")
+}
+
+function tutorialCompleted(){
   setCurrentPage("realTrialPage")
 }
+
   
 function handleResultsUpload() {
   axios.post('https://walrus-app-eilu3.ondigitalocean.app/upload-results', {
@@ -117,7 +124,7 @@ function handleResultsUpload() {
   })
     .then(() => {
       console.log('Results uploaded successfully!');
-      setUploadStatus(prevUploadStatus => prevUploadStatus = "Thank you for your precious participation!") 
+      setUploadStatus(prevUploadStatus => prevUploadStatus = `${t("final_Page.upload_success")}`) 
     })
     .catch(error => {
       console.error('Error uploading results:', error.message);
@@ -267,9 +274,9 @@ useEffect(() => {
     )}
 
     {currentPage === 'tutorialPage' && (
-      <div>
-          <p>This is tutorial Page.</p>
-        </div>
+          <TutorialTrials
+            finishedTutorial={tutorialCompleted}
+          />
       )}
 
     {currentPage === 'realTrialPage' && (
@@ -279,15 +286,24 @@ useEffect(() => {
       )}
 
       {currentPage === 'finalPage' && (
-        <div>
-          <p style={{fontSize:"25px"}}>{uploadStatus}</p>
+        <div style={{textAlign:"center"}}>
+
+          <h1>{t("final_Page.title")}</h1>
+          <br></br>
+          <p style={{fontSize:"24px"}}>{t("final_Page.paragraph_1")}</p>
+          <p style={{fontSize:"24px"}}></p>
+          <br></br>
+          <br></br>
+          <p style={{fontSize:"18px"}}>{uploadStatus}</p>
 
         </div>
       )}
 
       {currentPage === 'declinedPage' && (
-        <div>
-          <p>ToS has been declined or participant does not want to take the experiment.</p>
+        <div style={{textAlign:"center"}}>
+            <h1>{t("tos_consent_declined.title")}</h1>
+            <br></br>
+            <p style={{fontSize:"24px"}}>{t("tos_consent_declined.paragraph_1")}</p>
         </div>
       )}
       </header>

@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
 import newColorDataSet from "../data/colorvalues";
 import axios from "axios";
+import { useTranslation } from "react-i18next";
 
 
 
 export default function RealTrial(props){
 
+
+   const [t, i18n] = useTranslation("global");
 
     const [country, setCountry] = useState("");
     const [age, setAge] = useState("");
@@ -189,8 +192,8 @@ export default function RealTrial(props){
     return(
         <>
         <div className='trialdiv'>
-              <p style={{ fontSize: "18px" }}>Which color is warmer?</p>
-              <p style={{ fontSize: "16px" }}>Click on one of the squares to select your answer.</p>
+              <p style={{ fontSize: "20px" }}>{t("tutorial.question")}</p>
+              <p style={{ fontSize: "16px" }}>{t("tutorial.click_instruction")}</p>
               <br></br>
               <div className='colorSelectionGrid'>
                 <div onClick={ColorSwitch} className="color1" style={{ backgroundColor: stimuli1 }}></div>

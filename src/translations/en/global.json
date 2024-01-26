@@ -109,6 +109,67 @@
     "consent_disagree":"I do not agree to let my child doing the experiment.",
 
     "submit":"Submit"
+  },
+
+  "userinfo":{
+    "title":"Participant Information",
+    "email_label":"Email (optional, results will be sent via email):",
+    "placeholder":"Enter email address",
+      "gender":{
+          "label":"Gender:",
+          "gender_male":"Male",
+          "gender_female":"Female",
+          "gender_other":"Other"
+    },
+    "age_label":"Age (Required):",
+    "country_label":"Country (Required):",
+    "native_language_label":"Native Language (Required):",
+    "vision_type":{
+      "label":"Vision Type (Requiered):",
+      "types":{
+        "type_1":"Common Trichromacy",
+        "type_2":{
+          "type":"Anomalous Trichromacy",
+          "sub_type_1":"Protanomaly",
+          "sub_type_2":"Deuteranomaly",
+          "sub_type_3":"Tritanomaly"
+        },
+        "type_3":{
+          "type":"Dichromacy",
+          "sub_type_1":"Protanopia",
+          "sub_type_2":"Deuteranopia",
+          "sub_type_3":"Tritanopia"
+        },
+        "type_4":"Unknown",
+        "type_5":"Subtype:"
+      }
+    },
+    "submit":"Submit"
+  },
+
+  "tutorial":{
+    "title":"Welcome to the experiment!",
+    "paragraph_1":"There are 70 trials and you must choose of the displayed colors that you think is warmer. Two stimuli squares are presented. Each represents a color: click on one of them to submit your answer to the question: `Which one is warmer?`. Note that there is no correct answer! It would be great if you could answer as fast and intuitively as possible. You can also take a break between trials. The duration is at least 5 minutes. The following exercise will help you to have an idea about the main task. Start by pressing the `START` button below. ",
+    "submit":"START",
+
+    "question":"Which color is warmer?",
+    "click_instruction":"Click on one of the squares to select your answer.",
+
+    "completion_title":"Great!",
+    "completion_paragraph":"Now you're about to start the experiment. Click on the button `YES` if you feel ready.",
+    "completion_button":"YES"
+
+  },
+  "final_Page":{
+    "title":"Thank you for your participation!",
+    "paragraph_1":"Please wait until the upload status has been concluded. Then, you may close the browser tab.",
+    "uploading_please_wait":"Results are being uploaded, please wait...",
+    "upload_success":"Upload successful!"
+  },
+
+  "tos_consent_declined":{
+    "title":"Thank you for your consideration.",
+    "paragraph_1":"You may close the browser tab now."
   }
 
 }

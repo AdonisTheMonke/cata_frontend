@@ -1,47 +1,51 @@
+import { useTranslation } from "react-i18next";
 import CountryList from "./countrylist";
 import NativeLanguage from "./nativelanguage";
 import ColorVisionType from "./visiontype";
 
 export default function UserInfo(props){
+
+  const [t, i18n] = useTranslation("global");
+
     return(
         <div className="userinfodiv">
-        <h1>Participant Information</h1>
+        <h1>{t("userinfo.title")}</h1>
         <form onSubmit={props.handleSubmit}>
           <label>
-            <p>Email (optional: if you are interested to know your result, we may send it to your email address):</p>
-            <input className="inputCSS" placeholder="Enter email address" type="text" name="name" />
+            <p>{t("userinfo.email_label")}</p>
+            <input className="inputCSS" placeholder={t("userinfo.placeholder")} type="text" name="name" />
           </label>
           <br />
           <label>
-            <p>Gender:</p>
+            <p>{t("userinfo.gender.label")}</p>
             <select className="selectorCSS" name="gender">
-              <option value={"male"}>Male</option>
-              <option value={"female"}>Female</option>
-              <option value={"other"}>Other</option>
+              <option value={"male"}>{t("userinfo.gender.gender_male")}</option>
+              <option value={"female"}>{t("userinfo.gender.gender_female")}</option>
+              <option value={"other"}>{t("userinfo.gender.gender_other")}</option>
             </select>
           </label>
           <br></br>
           <label>
-            <p>Age (Required):</p>
+            <p>{t("userinfo.age_label")}</p>
             <input className="inputCSS" type="number" name="age" required min={1} max={150}/>
           </label>
           <br />
           <label>
-            <p>Country (Required):</p>
+            <p>{t("userinfo.country_label")}:</p>
             <CountryList/>
           </label>
           <br />
             <label>
-                <p>Native Language (Requiered):</p>
+                <p>{t("userinfo.native_language_label")}</p>
                 <NativeLanguage/>
             </label>
           <br></br>
             <label>
-              <p>Vision Type (Requiered):</p>
+              <p>{t("userinfo.vision_type.label")}</p>
               <ColorVisionType/>
             </label>
           <br></br><br></br>
-          <button className="submit_button" type="submit">Submit</button>
+          <button className="submit_button" type="submit">{t("userinfo.submit")}</button>
           <br></br>
         </form>
       </div>
