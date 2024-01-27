@@ -1,7 +1,7 @@
 
 export default function CountryList(){
     return(
-         <select id="country" name="country" className="selectorCSS">
+         <select id="country" name="country" className="selectorCSS" style={{maxWidth:"250px"}}>
             <option value="Afghanistan">Afghanistan</option>
             <option value="Åland Islands">Åland Islands</option>
             <option value="Albania">Albania</option>
