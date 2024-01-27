@@ -50,7 +50,7 @@ export default function RealTrial(props){
     const generatedTrials = [];
     const colorDataSetCopy = [...newColorDataSet]; // Make a copy to avoid modifying the original array
   
-    for (let i = 0; i < 10; i++) { // Adjust the number of trials as needed
+    for (let i = 0; i < 70; i++) { // Adjust the number of trials as needed
       const randomIndex1 = Math.floor(Math.random() * colorDataSetCopy.length);
       let randomIndex2 = Math.floor(Math.random() * (colorDataSetCopy.length - 1));
   
