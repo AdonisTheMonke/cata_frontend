@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import newColorDataSet from "../data/colorvalues";
-import axios from "axios";
 import { useTranslation } from "react-i18next";
 
 
@@ -8,41 +7,14 @@ import { useTranslation } from "react-i18next";
 export default function RealTrial(props){
 
 
-   const [t, i18n] = useTranslation("global");
+   const [t] = useTranslation("global");
 
-    const [country, setCountry] = useState("");
-    const [age, setAge] = useState("");
-    const [nativeLanguage, setNativeLanguage] = useState("")
-    const [visionType, setVisionType] = useState("")
-    const [visionSubType, setVisionSubType] = useState("n/a")
-  
-    const [participantNum, setParticipantNum] = useState("");
     const [stimuli1, setStimuli1] = useState("");
     const [stimuli2, setStimuli2] = useState("");
     const [trials, setTrials] = useState([]);
     const [currentTrialIndex, setCurrentTrialIndex] = useState(0);
     const [results, setResults] = useState({});
-    const [termsAccepted, setTermsAccepted] = useState(false);
-    const [name, setName] = useState("");
-    const [formDataSubmitted, setFormDataSubmitted] = useState(false);
-    const [uploadStatus, setUploadStatus] = useState("Uploading results...")
-    const [tutorialStatus, setTutorialStatus] = useState(false)
-    const [currentTutorialIndex, setCurrentTutorialIndex] = useState(0);
   
-    const [tosStatus, setTosStatus] = useState("")
-    const [info, setInfo] = useState("")
-  
-  
-    const tutorialStimuli = [
-      {
-        "stimuli1": "#795c1b",
-        "stimuli2": "#bc1933"
-    },
-    {
-      "stimuli1": "#66282f",
-      "stimuli2": "#d8b76f"
-    }
-    ]
     
   
   useEffect(() => {
@@ -97,14 +69,6 @@ export default function RealTrial(props){
       }
     }, [trials, currentTrialIndex]);
   
-    function handleNextTutorialItem() {
-      if (currentTutorialIndex < tutorialStimuli.length - 1) {
-        setCurrentTutorialIndex(prevIndex => prevIndex + 1);
-      } else {
-        // Handle completion of tutorial, e.g., setTutorialStatus(true)
-        setTutorialStatus(true);
-      }
-    }
   
     function ColorSwitch() {
       const pickedColor = currentTrialIndex < trials.length ? stimuli1 : null;
@@ -138,44 +102,8 @@ export default function RealTrial(props){
         setCurrentTrialIndex((prevIndex) => prevIndex + 1);
       }, 0); /* Speed of transition between Stimuli, 500ms */
     }
-  
-    /* function handleTermsCheckboxChange() {     
-      setTermsAccepted(!termsAccepted);
-    } */
-  
-    function handleTermsCheckboxChange(e) {
-      if (e.target.value === "agree") {
-        setTosStatus("agree");
-      } else if (e.target.value === "disagree") {
-        setTosStatus("disagree");
-      }
-    }
-    
-    function onClickSubmitTOS() {
-      if (tosStatus === "") {
-        setInfo("Please select one of the available options.");
-      } else if (tosStatus === "agree") {
-        setTermsAccepted(!termsAccepted);
-      } else if (tosStatus === "disagree") {
-        setInfo("Participant chooses to disagree with TOS.");
-      }
-    }
-    
-  
-  
-  
-    function handleSubmit(e) {
-      e.preventDefault();
-      setName(e.target.elements.name.value);
-      setCountry(e.target.elements.country.value);
-      setAge(e.target.elements.age.value);
-      setNativeLanguage(e.target.elements.language.value)
-      setVisionType(e.target.elements.visiontype.value)
-      setVisionSubType(e.target.elements.visionsubtype?.value || "n/a");
-      setFormDataSubmitted(true);
-  
-    }
-  
+
+
     const { finishedtrials } = props;
 
     useEffect(() => {
@@ -185,7 +113,7 @@ export default function RealTrial(props){
         finishedtrials(results)
 
       }
-    }, [currentTrialIndex, trials, finishedtrials]);
+    }, [currentTrialIndex, trials, finishedtrials, results]);
   
   
 
