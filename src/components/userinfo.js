@@ -5,7 +5,7 @@ import ColorVisionType from "./visiontype";
 
 export default function UserInfo(props){
 
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
 
     return(
         <div className="userinfodiv">

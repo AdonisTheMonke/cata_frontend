@@ -10,7 +10,7 @@ export default function ColorVisionType(){
         setShowExtraOptions(preValue => preValue = selectedValue)
     }
 
-    const [t, i18n] = useTranslation("global");
+    const [t] = useTranslation("global");
     
 
     return(

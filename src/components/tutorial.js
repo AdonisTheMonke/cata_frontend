@@ -5,7 +5,7 @@ export default function TutorialTrials(props) {
   const [currentTutorialIndex, setCurrentTutorialIndex] = useState(0);
   const [isVisible, setIsVisible] = useState("instructions");
 
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
 
   const tutorialStimuli = [
     {

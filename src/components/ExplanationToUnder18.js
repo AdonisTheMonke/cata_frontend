@@ -17,6 +17,7 @@ export default function ExplanationToUnder1816(props) {
               <option value={"de"}>German</option>
               <option value={"ru"}>Russian</option>
               <option value={"es"}>Spanish</option>
+              <option value={"jp"}>Japanese</option>
         </select>
 
       <h1>{t("explanationForUnder18_16.title")}</h1>

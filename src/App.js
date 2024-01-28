@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import "./App.css"
 import axios from 'axios';
 import UserInfo from './components/userinfo';
-import newColorDataSet from './data/colorvalues';
 import Intro from './components/intro';
 import ExplanationToUnder1816 from './components/ExplanationToUnder18';
 import { useTranslation } from 'react-i18next';
@@ -14,7 +13,7 @@ import TutorialTrials from './components/tutorial';
 
 
 const SurveyComponent = () => {
-  const [t, i18n] = useTranslation("global")
+  const [t] = useTranslation("global")
   const [tosAccept, setTosAccept] = useState("")
 
   const [ageGroup, setAgeGroup] = useState('');
@@ -44,9 +43,6 @@ const SurveyComponent = () => {
   )
 };
 
-  const handleNameChange = (event) => {
-    setName(event.target.value);
-  };
 
   function handleTermsCheckboxChange(e){
     setTosAccept(prevTos => prevTos = e.target.value)

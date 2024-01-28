@@ -17,6 +17,8 @@ export default function Welcome(props) {
               <option value={"de"}>German</option>
               <option value={"ru"}>Russian</option>
               <option value={"es"}>Spanish</option>
+              <option value={"jp"}>Japanese</option>
+
 
         </select>
 

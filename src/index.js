@@ -8,6 +8,7 @@ import global_en from "./translations/en/global.json"
 import global_de from "./translations/de/global.json"
 import global_ru from "./translations/ru/global.json"
 import global_es from "./translations/es/global.json"
+import global_jp from "./translations/jp/global.json"
 
 import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
@@ -27,6 +28,9 @@ i18next.init({
     },
     es:{
       global: global_es
+    },
+    jp: {
+      global: global_jp
     }
   }
 })
