@@ -102,5 +102,62 @@
     "consent_disagree":"Ich stimme nicht zu, dass mein Kind das Experiment durchführen darf.",
 
     "submit":"Einreichen"
+  },
+
+  "userinfo":{
+    "title":"Teilnehmerinformationen",
+    "email_label":"E-Mail (optional, Ergebnisse werden per E-Mail gesendet):",
+    "placeholder":"E-Mail-Adresse eingeben",
+    "gender":{
+      "label":"Geschlecht:",
+      "gender_male":"Männlich",
+      "gender_female":"Weiblich",
+      "gender_other":"Andere"
+    },
+    "age_label":"Alter (Erforderlich):",
+    "country_label":"Land (Erforderlich):",
+    "native_language_label":"Muttersprache (Erforderlich):",
+    "vision_type":{
+      "label":"Sehtyp (Erforderlich):",
+      "types":{
+        "type_1":"Gewöhnliche Trichromasie",
+        "type_2":{
+          "type":"Anomalie der Trichromasie",
+          "sub_type_1":"Protanomalie",
+          "sub_type_2":"Deuteranomalie",
+          "sub_type_3":"Tritanomalie"
+        },
+        "type_3":{
+          "type":"Dichromasie",
+          "sub_type_1":"Protanopie",
+          "sub_type_2":"Deuteranopie",
+          "sub_type_3":"Tritanopie"
+        },
+        "type_4":"Unbekannt",
+        "type_5":"Unterart:"
+      }
+    },
+    "submit":"Einreichen"
+  },
+  "tutorial":{
+    "title":"Willkommen zum Experiment!",
+    "paragraph_1":"Es gibt 70 Durchgänge, und Sie müssen die Farbe wählen, die Sie für wärmer halten. Es werden zwei Stimulusquadrate präsentiert. Jedes repräsentiert eine Farbe: Klicken Sie auf eines davon, um Ihre Antwort auf die Frage `Welches ist wärmer?` abzugeben. Beachten Sie, dass es keine richtige Antwort gibt! Es wäre großartig, wenn Sie so schnell und intuitiv wie möglich antworten könnten. Sie können auch eine Pause zwischen den Durchgängen machen. Die Dauer beträgt mindestens 5 Minuten. Die folgende Übung wird Ihnen helfen, eine Vorstellung von der Hauptaufgabe zu bekommen. Beginnen Sie, indem Sie unten auf die Schaltfläche `START` klicken.",
+    "submit":"START",
+    "question":"Welche Farbe ist wärmer?",
+    "click_instruction":"Klicken Sie auf eines der Quadrate, um Ihre Antwort auszuwählen.",
+    "completion_title":"Großartig!",
+    "completion_paragraph":"Jetzt beginnen Sie das Experiment. Klicken Sie auf die Schaltfläche `JA`, wenn Sie bereit sind.",
+    "completion_button":"JA"
+  },
+  "final_Page":{
+    "title":"Vielen Dank für Ihre Teilnahme!",
+    "paragraph_1":"Bitte warten Sie, bis der Upload abgeschlossen ist. Dann können Sie den Browser-Tab schließen.",
+    "uploading_please_wait":"Die Ergebnisse werden hochgeladen, bitte warten Sie...",
+    "upload_success":"Upload erfolgreich!"
+  },
+  "tos_consent_declined":{
+    "title":"Vielen Dank für Ihre Überlegung.",
+    "paragraph_1":"Sie können den Browser-Tab jetzt schließen."
   }
+  
 }
