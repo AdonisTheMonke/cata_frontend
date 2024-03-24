@@ -122,8 +122,8 @@ pre {
 
   .colorSelectionGrid{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     row-gap: 50px;
   }
 
@@ -132,10 +132,9 @@ pre {
     width: 30vh;
   }
 
+
   .languageGrid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr); /* Adjust the number of columns as needed */
-    gap: 40px; /* Adjust the gap between grid items */
+    grid-template-columns: repeat(1, 1fr) !important;
   }
 
 
