@@ -5,6 +5,8 @@
 
 h1 {
   margin: 0px;
+  font-size: 1.5em;
+  overflow-wrap: break-word;
 }
 h2 {
   padding: 0px;
@@ -89,7 +91,7 @@ pre {
 }
 
 .termsandcondition-div {
-  width: 500px;
+  width: 600px;
   background: #1E1E1E;
   padding: 60px;
   height: 100%;
@@ -194,7 +196,7 @@ pre {
 @media screen and (min-width: 1440px){
 
   .termsandcondition-div{
-    width: 600px;
+    width: 650px;
   }
 
 
