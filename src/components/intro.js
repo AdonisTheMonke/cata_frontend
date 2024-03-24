@@ -12,14 +12,14 @@ export default function TermsAndConditions(props) {
   return (
     <div className='termsandcondition-div'>
 
-        <select className="languageSelect" onChange={(e) => handleChangeLanguage(e.target.value)}>
+        {/* <select className="languageSelect" onChange={(e) => handleChangeLanguage(e.target.value)}>
               <option value={"en"}>English</option>
               <option value={"de"}>German</option>
               <option value={"ru"}>Russian</option>
               <option value={"es"}>Spanish</option>
               <option value={"jp"}>Japanese</option>
 
-        </select>
+        </select> */}
 
       <h1>{t("intro.title")}</h1>
       <br />

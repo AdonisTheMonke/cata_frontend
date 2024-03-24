@@ -10,6 +10,7 @@ import ExplanationToParentsAndTutor from './components/explanationforparent';
 import RealTrial from './components/realTrial';
 import Welcome from './components/welcome';
 import TutorialTrials from './components/tutorial';
+import LanguageSelect from './components/languageSelect';
 
 
 const SurveyComponent = () => {
@@ -18,7 +19,7 @@ const SurveyComponent = () => {
 
   const [ageGroup, setAgeGroup] = useState('');
   const [name, setName] = useState('');
-  const [currentPage, setCurrentPage] = useState('ageSelection');
+  const [currentPage, setCurrentPage] = useState('languageSelection'); /* Old value is 'ageSelection' */
   const [uploadStatus, setUploadStatus] = useState(`${t("final_Page.uploading_please_wait")}`)
 
 
@@ -61,7 +62,7 @@ const SurveyComponent = () => {
   const SelectAgeButtons = () => {
     return (
       <div>
-      <h2>Select Your Age Group:</h2>
+      <h2>{(t("intro.age_question"))}</h2>
       <form onSubmit={handleSubmit}>
 
         <button className='ageBtn'
@@ -144,6 +145,16 @@ useEffect(() => {
   return (
     <div className='App'>
       <header className='App-header'>
+
+      {/* Language Selection Screen */}
+      {currentPage === 'languageSelection' && (
+        <>
+          <LanguageSelect
+            SelectedLanguage={() => {setCurrentPage('ageSelection')}}
+          />
+        </>
+      )}
+
       {currentPage === 'ageSelection' && (
         <>
           

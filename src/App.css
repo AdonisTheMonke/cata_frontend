@@ -129,6 +129,14 @@ pre {
     height: 30vh;
     width: 30vh;
   }
+
+  .languageGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Adjust the number of columns as needed */
+    gap: 40px; /* Adjust the gap between grid items */
+  }
+
+
 }
 
 @media screen and (min-width: 1440px){
@@ -227,4 +235,28 @@ label > p {
 }
 
 
+.languageGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+  gap: 40px; /* Adjust the gap between grid items */
+}
+
+.languageGrid div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.languageGrid div:hover {
+  cursor: pointer;
+}
+
+.languageGrid img {
+  width: 200px; /* Adjust the width of the flag images */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.languageGrid span {
+  margin-top: 10px; /* Adjust the spacing between the image and language name */
+}
 

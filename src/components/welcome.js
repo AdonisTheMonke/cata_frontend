@@ -12,7 +12,7 @@ export default function Welcome(props) {
   return (
     <div className='termsandcondition-div'>
 
-        <select className="languageSelect" onChange={(e) => handleChangeLanguage(e.target.value)}>
+        {/* <select className="languageSelect" onChange={(e) => handleChangeLanguage(e.target.value)}>
               <option value={"en"}>English</option>
               <option value={"de"}>German</option>
               <option value={"ru"}>Russian</option>
@@ -20,7 +20,7 @@ export default function Welcome(props) {
               <option value={"jp"}>Japanese</option>
 
 
-        </select>
+        </select> */}
 
       <h1>{t("TermsAndConditions.title")}</h1>
       <br />
