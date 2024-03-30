@@ -100,7 +100,7 @@ export default function RealTrial(props){
     
       setTimeout(() => {
         setCurrentTrialIndex((prevIndex) => prevIndex + 1);
-      }, 0); /* Speed of transition between Stimuli, 500ms */
+      }, 500); /* Speed of transition between Stimuli, 500ms */
     }
 
 
