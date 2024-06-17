@@ -14,7 +14,7 @@ export default function RealTrial(props) {
         const generatedTrials = [];
         const colorDataSetCopy = [...newColorDataSet]; // Make a copy to avoid modifying the original array
 
-        for (let i = 0; i < 4; i++) { // Adjust the number of trials as needed
+        for (let i = 0; i < 70; i++) { // Adjust the number of trials as needed
             const randomIndex1 = Math.floor(Math.random() * colorDataSetCopy.length);
             let randomIndex2 = Math.floor(Math.random() * (colorDataSetCopy.length - 1));
 
@@ -49,7 +49,6 @@ export default function RealTrial(props) {
         }
 
         setTrials(generatedTrials);
-        console.log(generatedTrials)
     }, []);
 
     useEffect(() => {
@@ -107,7 +106,6 @@ export default function RealTrial(props) {
         if (currentTrialIndex === trials.length && trials.length > 0) {
             // Perform the upload when all trials are completed
             finishedtrials(results)
-            console.log(results)
         }
     }, [currentTrialIndex, trials, finishedtrials, results]);
 
