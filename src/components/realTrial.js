@@ -70,7 +70,7 @@ export default function RealTrial(props) {
         setTimeout(() => {
             setCurrentTrialIndex((prevIndex) => prevIndex + 1);
             setIsTransitioning(false); // Reset transition state
-        }, 0); // Delay between trials
+        }, 1500); // Delay between trials
     }
 
     const { finishedtrials } = props;
