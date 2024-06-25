@@ -19,6 +19,7 @@ const SurveyComponent = () => {
 
   const [ageGroup, setAgeGroup] = useState('');
   const [name, setName] = useState('');
+  const [gender, setGender] = useState('');
   const [currentPage, setCurrentPage] = useState('languageSelection'); /* Old value is 'ageSelection' */
   const [uploadStatus, setUploadStatus] = useState(`${t("final_Page.uploading_please_wait")}`)
 
@@ -95,6 +96,7 @@ const SurveyComponent = () => {
 function handleSubmitOfUserInfo(e) {
   e.preventDefault();
   setName(e.target.elements.name.value);
+  setGender(e.target.elements.gender.value)
   setCountry(e.target.elements.country.value);
   setAge(e.target.elements.age.value);
   setNativeLanguage(e.target.elements.language.value)
@@ -113,6 +115,7 @@ function handleResultsUpload() {
   axios.post('https://walrus-app-eilu3.ondigitalocean.app/upload-results', {
     name,
     age,
+    gender,
     country,
     nativeLanguage,
     visionType,
