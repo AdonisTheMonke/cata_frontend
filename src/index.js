@@ -10,6 +10,7 @@ import global_ru from "./translations/ru/global.json"
 import global_es from "./translations/es/global.json"
 import global_jp from "./translations/jp/global.json"
 import global_np from "./translations/np/global.json"
+import global_fa from "./translations/fa/global.json"
 
 import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
@@ -35,6 +36,9 @@ i18next.init({
     },
     np:{
       global: global_np
+    },
+    fa:{
+      global: global_fa
     }
   }
 })

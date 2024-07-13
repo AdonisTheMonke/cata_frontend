@@ -6,6 +6,7 @@ import RuFlag from "../data/img/ru.gif"
 import EsFlag from "../data/img/es.gif"
 import JpFlag from "../data/img/jp.gif"
 import NpFlag from "../data/img/nepal.png"
+import FaFlag from "../data/img/iran.svg"
 import { useEffect, useState } from "react";
 
 
@@ -34,6 +35,8 @@ export default function LanguageSelect(props){
             setDisplayText(t("言語を選択してください"));
           } else if (displayText === t("言語を選択してください")) {
             setDisplayText(t("आफ्नो भाषा चयन गर्नुहोस्:"));
+          } else if (displayText === t("आफ्नो भाषा चयन गर्नुहोस्:")) {
+            setDisplayText(t("اختر لغتك:"));
           } else {
             setDisplayText(t("Select your language:"));
           }
@@ -80,6 +83,10 @@ export default function LanguageSelect(props){
                 <div onClick={() => handleChangeLanguage("np")}>
                     <img src={NpFlag} alt="Nepali" style={{height:"150px", width:"150px"}} />
                     <span>नेपाली</span>
+                </div>
+                <div onClick={() => handleChangeLanguage("fa")}>
+                    <img src={FaFlag} alt="Nepali" />
+                    <span>الفارسية</span>
                 </div>
 
             </div>
