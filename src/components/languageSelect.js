@@ -7,6 +7,8 @@ import EsFlag from "../data/img/es.gif"
 import JpFlag from "../data/img/jp.gif"
 import NpFlag from "../data/img/nepal.png"
 import FaFlag from "../data/img/iran.svg"
+import IdFlag from "../data/img/indonesia.svg"
+
 import { useEffect, useState } from "react";
 
 
@@ -37,7 +39,9 @@ export default function LanguageSelect(props){
             setDisplayText(t("आफ्नो भाषा चयन गर्नुहोस्:"));
           } else if (displayText === t("आफ्नो भाषा चयन गर्नुहोस्:")) {
             setDisplayText(t("اختر لغتك:"));
-          } else {
+          } else if (displayText === t("اختر لغتك:")) {
+            setDisplayText(t("Pilih bahasa Anda:"));
+          }else {
             setDisplayText(t("Select your language:"));
           }
         }, 3000); // Repeat every 5 seconds
@@ -87,6 +91,11 @@ export default function LanguageSelect(props){
                 <div onClick={() => handleChangeLanguage("fa")}>
                     <img src={FaFlag} alt="Nepali" />
                     <span>الفارسية</span>
+                </div>
+
+                <div onClick={() => handleChangeLanguage("id")}>
+                    <img src={IdFlag} alt="Indonesian" />
+                    <span>Indonesian</span>
                 </div>
 
             </div>

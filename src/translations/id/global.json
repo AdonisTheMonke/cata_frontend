@@ -1,0 +1,174 @@
+{
+    "TermsAndConditions": {
+      "title": "Syarat dan Ketentuan",
+      "point_one": "I. Subjek Penelitian",
+      "point_one_description": "Korespondensi antara warna dan suhu.",
+      
+      "point_two": "II. Tujuan Studi",
+      "point_two_description": "Untuk mengetahui bagaimana orang di seluruh dunia mengasosiasikan warna dan suhu.",
+      
+      "point_three": "III. Prosedur Eksperimen",
+      "point_three_description": {
+        "a": "Dua warna ditampilkan di layar, dan Anda diminta untuk menjawab warna mana yang menurut Anda lebih hangat dengan mengklik salah satu kotak berwarna yang disajikan. Ini diulang dengan berbagai kombinasi warna. Anda bebas untuk istirahat antara percobaan. Harap dicatat bahwa tidak ada jawaban yang benar, dan Anda diundang untuk menjawab secepat dan seintuitif mungkin.",
+        
+        "b": "Anda akan diminta untuk mengisi kuesioner tentang latar belakang budaya Anda (negara asal, dll.), jenis kelamin, bahasa yang digunakan, usia, dan karakteristik penglihatan warna. Namun ini tidak wajib. Informasi tersebut dapat dikosongkan."
+      },
+      
+      "point_four": "IV. Risiko, kerugian, rasa sakit, efek samping, dll. dari eksperimen, dan tindakan pencegahan terhadapnya",
+      "point_four_description": "Studi ini tidak akan menggunakan alat eksperimen atau kondisi eksperimen apa pun yang dapat memengaruhi kondisi fisik atau kesehatan Anda. Namun, jika Anda melihat ada perubahan dalam kondisi fisik atau kesehatan Anda, bahkan setelah istirahat yang cukup, harap hentikan eksperimen segera.",
+      
+      "point_five": "V. Tanggapan terhadap Keadaan Darurat",
+      "point_five_description": "Dalam keadaan darurat, peserta dapat menghentikan atau menghentikan eksperimen atas kebijakannya sendiri.",
+      
+      "point_six": "VI. Kerugian dari tidak menyetujui eksperimen",
+      "point_six_description": "Jika Anda tidak menyetujui eksperimen ini, Anda tidak akan dirugikan dengan cara apa pun. Bahkan setelah menyetujui, Anda berhak menghentikan atau menolak partisipasi dalam eksperimen kapan saja. Dalam kasus tersebut, Anda tidak akan dirugikan dengan cara apa pun.",
+      
+      "point_seven": "VII. Privasi",
+      "point_seven_description": "Partisipasi bersifat anonim. Jika Anda ingin mengetahui hasil studi, harap berikan alamat email Anda. Kami akan mengirimkan ringkasan hasil studi saat diterbitkan. Anda tidak harus menjawab pertanyaan tentang latar belakang budaya atau karakteristik penglihatan warna jika Anda tidak mau. Tanggapan terhadap kuesioner tidak dimaksudkan untuk mengukur kemampuan individu. Tanggapan yang diperoleh tidak akan digunakan untuk tujuan lain selain penelitian.",
+      
+      "point_eight": "VIII. Tanda Terima",
+      "point_eight_description": "Tidak ada tanda terima.",
+      
+      "point_nine": "IX. Lainnya",
+      "point_nine_description": "Silakan hubungi peneliti jika Anda memiliki keluhan atau komentar lain tentang eksperimen ini.",
+  
+      "experimenter": "Peneliti: Meissa Sow (Sekolah Pascasarjana Desain, Universitas Kyushu, Jepang)",
+      "email": "alamat email: sow.ndeye.meissa.042@s.kyushu-u.ac.jp",
+      "principal_investigator": "Peneliti Utama: Chihiro Hiramatsu (Sekolah Pascasarjana Desain, Universitas Kyushu, Jepang)",
+  
+      "consent":"Apakah Anda setuju untuk memberikan informasi Anda untuk eksperimen kami?",
+      "consent_agree":"Ya, saya setuju, dan saya ingin mengikuti survei.",
+      "consent_disagree":"Tidak, saya tidak setuju.",
+  
+      "submit":"Kirim"
+    },
+    "intro":{
+      "title":"Eksperimen Asosiasi Warna dan Suhu",
+      "paragraph_1":"Peserta yang terhormat, selamat datang di eksperimen kami! \nKami adalah peneliti penglihatan warna yang berbasis di Universitas Kyushu. Kami ingin mengetahui bagaimana orang di seluruh dunia mengasosiasikan warna dan suhu. Asosiasi ini mungkin seperti pengetahuan umum di banyak budaya, tetapi mungkin memiliki beberapa perbedaan tergantung pada negara tempat kita tinggal. Dan kami bermaksud menemukan mereka berdasarkan jawaban Anda melalui survei anonim.",
+      "paragraph_2":"Ada tautan di akhir formulir ini. Itu akan mengarahkan Anda ke eksperimen. Anda perlu memenuhi syarat terkait usia Anda terutama jika Anda di bawah umur. Kemudian Anda akan dapat mengakses eksperimen. Anda masih memiliki hak untuk tidak menjawab survei bahkan jika Anda berusia di atas 18 tahun. Kami akan mengumpulkan informasi Anda tetapi kami menjamin bahwa informasi tersebut tidak akan dibagikan secara publik dan akan tetap dirahasiakan. Jika Anda tidak menerima Anda tidak akan dapat mengikuti eksperimen. Anda memiliki hak untuk menghentikan survei bahkan setelah diterima. Durasi sekitar 5 menit. Terima kasih sebelumnya atas kerjasama berharga Anda!",
+      "age_question":"Berapa umur Anda?",
+      "age_above18":"Di atas 18",
+      "age_under18":"Di bawah 18",
+      "age_under16":"Di bawah 16"
+    },
+    "explanationForUnder18_16":{
+      "title":"Eksperimen Asosiasi Warna dan Suhu",
+      "question":"Apa yang ingin kami lakukan?",
+      "paragraph_1":"Di beberapa budaya, ada hubungan yang kuat antara warna dan suhu. Namun, kami tidak tahu apakah ini merupakan tren di seluruh dunia. Dalam eksperimen ini, kami bermaksud untuk mengetahuinya. Selama eksperimen, dua kotak berwarna muncul di layar Anda. Yang harus Anda lakukan hanyalah mengklik salah satu yang Anda rasa lebih hangat. Jawab sejujur mungkin. Proses ini mudah dan akan memakan waktu sekitar 5-10 menit. Kami sangat tertarik dengan hasil Anda. Kami tidak membutuhkan nama Anda. Cukup berikan negara Anda, bahasa pertama Anda, jenis penglihatan warna (jika Anda mengetahuinya), jenis kelamin, dan usia Anda. Informasi ini akan digunakan untuk penelitian kami. Terakhir, kami akan menulis laporan tentang apa yang telah kami pelajari, tetapi tidak akan memuat nama Anda atau informasi apa pun tentang partisipasi Anda dalam eksperimen. Anda dapat menghentikan survei kapan saja. Anda juga sepenuhnya bebas untuk memutuskan apakah akan berpartisipasi dalam survei atau tidak.",
+      "understand_question":"Apakah Anda memahami apa yang dikatakan pada paragraf sebelumnya? jika ya, apakah Anda ingin mengikuti eksperimen?",
+      "understand_question_no":"Tidak sama sekali",
+      "understand_question_justlittle":"hanya sedikit, tetapi saya tidak ingin mengikuti eksperimen",
+      "understand_totally_totally":"Saya benar-benar mengerti dan saya ingin berpartisipasi dalam eksperimen"
+    },
+    "parent_tutor_consentUnder18_16":{
+      "title":"Eksperimen Asosiasi Warna dan Suhu",
+      "question":"Persetujuan orang tua/pengasuh dan persetujuan anak",
+      "paragraph_1":"Jika Anda berusia di bawah 18 atau 16 tahun, Anda perlu mendapatkan persetujuan dari orang tua/pengasuh Anda. Dia memiliki keputusan untuk mengizinkan Anda melanjutkan eksperimen atau tidak. Orang tua atau pengasuh memiliki hak sepenuhnya untuk mengawal anak selama survei. Setelah membaca penjelasan eksperimen, Anda (orang tua dan anak) dapat memberikan persetujuan Anda di halaman berikut.",
+      "submit":"Berikutnya"
+    },
+    "experiment_explanation_parent_tutor":{
+      "title":"Eksperimen Asosiasi Warna dan Suhu",
+      "point_one": "I. Subjek Penelitian",
+      "point_one_description": "Korespondensi antara warna dan suhu.",
+      
+      "point_two": "II. Tujuan Studi",
+      "point_two_description": "Untuk mengetahui bagaimana orang di seluruh dunia mengasosiasikan warna dan suhu.",
+      
+      "point_three": "III. Prosedur Eksperimen",
+      "point_three_description": {
+        "a": "Dua warna ditampilkan di layar, dan anak Anda diminta untuk menjawab warna mana yang lebih hangat dengan mengklik salah satu kotak berwarna yang disajikan. Ini diulang dengan berbagai kombinasi warna. Durasi eksperimen setidaknya sekitar 5 menit. Anak Anda bebas untuk istirahat antara percobaan. Harap dicatat bahwa tidak ada jawaban yang benar, dan anak Anda diundang untuk menjawab secepat dan seintuitif mungkin.",
+        
+        "b": "Sebelumnya anak Anda perlu mengisi kuesioner tentang latar belakang budayanya (negara asal, dll.), jenis kelamin, bahasa yang digunakan, usia, dan karakteristik penglihatan warna. Namun ini tidak wajib. Informasi tersebut dapat dikosongkan."
+      },
+      
+      "point_four": "IV. Risiko, kerugian, rasa sakit, efek samping, dll. dari eksperimen, dan tindakan pencegahan terhadapnya",
+      "point_four_description": "Studi ini tidak akan menggunakan alat eksperimen atau kondisi eksperimen apa pun yang dapat memengaruhi kondisi fisik atau kesehatan Anda. Namun, jika Anda melihat ada perubahan dalam kondisi fisik atau kesehatan Anda, bahkan setelah istirahat yang cukup, harap hentikan eksperimen segera.",
+      
+      "point_five": "V. Tanggapan terhadap Keadaan Darurat",
+      "point_five_description": "Dalam keadaan darurat, peserta dapat menghentikan atau menghentikan eksperimen atas kebijakannya sendiri.",
+      
+      "point_six": "VI. Kerugian dari tidak menyetujui eksperimen",
+      "point_six_description": "Jika Anda dan anak Anda tidak menyetujui eksperimen ini, Anda tidak akan dirugikan dengan cara apa pun. Bahkan setelah menyetujui, anak Anda berhak menghentikan atau menolak partisipasi dalam eksperimen kapan saja. Dalam kasus tersebut, anak Anda tidak akan dirugikan dengan cara apa pun.",
+      
+      "point_seven": "VII. Privasi",
+      "point_seven_description": "Partisipasi bersifat anonim. Jika Anda dan anak Anda ingin mengetahui hasil studi, harap berikan alamat email Anda. Kami akan mengirimkan ringkasan hasil studi saat diterbitkan. Jika anak Anda tidak menginginkan, dia tidak harus menjawab pertanyaan tentang latar belakang budaya atau karakteristik penglihatan warna. Tanggapan terhadap kuesioner tidak dimaksudkan untuk mengukur kemampuan individu. Tanggapan yang diperoleh tidak akan digunakan untuk tujuan lain selain penelitian.",
+      
+      "point_eight": "VIII. Tanda Terima",
+      "point_eight_description": "Tidak ada tanda terima.",
+      
+      "point_nine": "IX. Lainnya",
+      "point_nine_description": "Silakan hubungi peneliti jika Anda memiliki keluhan atau komentar lain tentang eksperimen ini.",
+  
+      "experimenter": "Peneliti: Meissa Sow (Sekolah Pascasarjana Desain, Universitas Kyushu, Jepang)",
+      "email": "alamat email: sow.ndeye.meissa.042@s.kyushu-u.ac.jp",
+      "principal_investigator": "Peneliti Utama: Chihiro Hiramatsu (Sekolah Pascasarjana Desain, Universitas Kyushu, Jepang)",
+  
+      "consent":"Apakah Anda setuju untuk membiarkan anak Anda melakukan eksperimen?",
+      "consent_agree":"Saya setuju untuk membiarkan anak saya melakukan eksperimen.",
+      "consent_disagree":"Saya tidak setuju untuk membiarkan anak saya melakukan eksperimen.",
+  
+      "submit":"Kirim"
+    },
+  
+    "userinfo":{
+      "title":"Informasi Peserta",
+      "email_label":"Email (opsional, hasil akan dikirim melalui email):",
+      "placeholder":"Masukkan alamat email",
+        "gender":{
+            "label":"Jenis Kelamin:",
+            "gender_male":"Laki-laki",
+            "gender_female":"Perempuan",
+            "gender_other":"Lainnya"
+      },
+      "age_label":"Usia (Diperlukan):",
+      "country_label":"Negara (Diperlukan):",
+      "native_language_label":"Bahasa Asli (Diperlukan):",
+      "vision_type":{
+        "label":"Jenis Penglihatan (Diperlukan):",
+        "types":{
+          "type_1":"Trikromasi Umum",
+          "type_2":{
+            "type":"Trikromasi Anomali",
+            "sub_type_1":"Protanomali",
+            "sub_type_2":"Deuteranomali",
+            "sub_type_3":"Tritanomali"
+          },
+          "type_3":{
+            "type":"Dikromasi",
+            "sub_type_1":"Protanopia",
+            "sub_type_2":"Deuteranopia",
+            "sub_type_3":"Tritanopia"
+          },
+          "type_4":"Tidak Diketahui",
+          "type_5":"Subtipe:"
+        }
+      },
+      "submit":"Kirim"
+    },
+  
+    "tutorial":{
+      "title":"Selamat datang di eksperimen!",
+      "paragraph_1":"Ada 70 percobaan dan Anda harus memilih warna yang Anda anggap lebih hangat. Dua kotak stimuli disajikan. Masing-masing mewakili warna: klik salah satu dari mereka untuk mengirimkan jawaban Anda atas pertanyaan: `Yang mana yang lebih hangat?`. Perlu dicatat bahwa tidak ada jawaban yang benar! Akan sangat baik jika Anda dapat menjawab secepat dan seintuitif mungkin. Anda juga bisa istirahat di antara percobaan. Durasi setidaknya 5 menit. Latihan berikut akan membantu Anda mendapatkan gambaran tentang tugas utama. Mulailah dengan menekan tombol `MULAI` di bawah.",
+      "submit":"MULAI",
+  
+      "question":"Warna mana yang lebih hangat?",
+      "click_instruction":"Klik salah satu kotak untuk memilih jawaban Anda.",
+  
+      "completion_title":"Hebat!",
+      "completion_paragraph":"Sekarang Anda akan memulai eksperimen. Klik tombol `YA` jika Anda merasa siap.",
+      "completion_button":"YA"
+  
+    },
+    "final_Page":{
+      "title":"Terima kasih atas partisipasi Anda!",
+      "paragraph_1":"Harap tunggu hingga status unggahan selesai. Kemudian, Anda dapat menutup tab browser.",
+      "uploading_please_wait":"Hasil sedang diunggah, harap tunggu...",
+      "upload_success":"Unggahan berhasil!"
+    },
+  
+    "tos_consent_declined":{
+      "title":"Terima kasih atas pertimbangan Anda.",
+      "paragraph_1":"Anda dapat menutup tab browser sekarang."
+    }
+  
+  }
