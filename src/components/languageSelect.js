@@ -8,6 +8,7 @@ import JpFlag from "../data/img/jp.gif"
 import NpFlag from "../data/img/nepal.png"
 import FaFlag from "../data/img/iran.svg"
 import IdFlag from "../data/img/indonesia.svg"
+import CnFlag from "../data/img/cn.png"
 
 import { useEffect, useState } from "react";
 
@@ -96,6 +97,16 @@ export default function LanguageSelect(props){
                 <div onClick={() => handleChangeLanguage("id")}>
                     <img src={IdFlag} alt="Indonesian" />
                     <span>Indonesian</span>
+                </div>
+
+                <div onClick={() => handleChangeLanguage("id")}>
+                    <img src={IdFlag} alt="Indonesian" />
+                    <span>Indonesian</span>
+                </div>
+
+                <div onClick={() => handleChangeLanguage("cn")}>
+                    <img src={CnFlag} alt="中文" />
+                    <span>中文</span>
                 </div>
 
             </div>
